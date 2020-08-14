@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 class ProductDetails extends Component {
   handleSave = (data) => {
-    console.log(data)
+   this.props.history.push('/products')
   }
 
   render() {
